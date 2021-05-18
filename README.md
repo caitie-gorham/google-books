@@ -13,7 +13,7 @@
 
 This repo contains a MERN application that allows users to search for books using the Google Books API and save them to their list of saved books.
 
-![Alt text](./Assets/home.png?raw=true "Homepage")
+![Alt text](./Assets/WokringFile.gif?raw=true "Homepage")
 
 
 # Access
