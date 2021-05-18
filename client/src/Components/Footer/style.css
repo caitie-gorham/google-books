@@ -1,0 +1,15 @@
+.footer-container {
+    position: fixed;
+    background-color:#fe8c03;
+    height: 45px;
+    width: 100%;
+    left: 0;
+    bottom: 0px;
+    padding: 10px;
+    color:white;
+  }
+
+  p {
+      text-align: center;
+      /* font-family: "ITC Franklin Gothic"; */
+  }

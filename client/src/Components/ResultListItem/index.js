@@ -49,7 +49,7 @@ class ResultListItem extends Component {
                         <h5 className="card-title" style={{margin: "10px 0"}}>{this.props.title}</h5>
                         <p className="card-text" >{this.props.description}</p>
                         <p style={{fontStyle: "italic"}}>Author(s): {this.props.authors}</p>
-                        <a href={this.props.link} target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{marginRight: "6px"}}>View Book</a>
+                        <a href={this.props.link} target="_blank" rel="noopener noreferrer" className="btn submitBtn" style={{backgroundColor: "#048481", marginRight: "6px"}}>View Book</a>
                         <button onClick={this.onClickFunction} style={{ backgroundColor: this.state.bgColor, color: this.state.color }} className="btn">{this.state.text}</button>
                     </div>
                 </div>

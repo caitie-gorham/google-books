@@ -12,7 +12,7 @@ function SaveListItem(props) {
                     <h5 className="card-title" style={{margin: "10px 0"}}>{title}</h5>
                     <p className="card-text" >{description}</p>
                     <p style={{fontStyle: "italic"}}>Author(s): {authors}</p>
-                    <a href={link} target="_blank" rel="noopener noreferrer" className="btn" style={{marginRight: "6px", backgroundColor: "rgb(33, 150, 243)", color: "white"}}>View Book</a>
+                    <a href={link} target="_blank" rel="noopener noreferrer" className="btn submitBtn" style={{backgroundColor: "#048481", marginRight: "6px"}}>View Book</a>
                     <button onClick={deleteGoogleBook.bind(this, props)} className="btn btn-primary">Delete</button>
                 </div>
             </div>
